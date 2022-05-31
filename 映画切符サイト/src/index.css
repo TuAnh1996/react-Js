@@ -1,0 +1,109 @@
+/* .styleButton {
+  padding: 2px 6px;
+  border-width: 2px 2px 2px 2px;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-image: initial;
+  font-weight: 500;
+
+  box-shadow: rgb(0 0 0) 3px 3px 2px 0px;
+  font-size: 14px;
+}
+.inputForm {
+  border: 2px solid #111111;
+  width: 88%;
+  padding: 5px;
+}
+:focus-visible {
+  outline: -webkit-focus-ring-color auto 0px;
+}
+::placeholder {
+  color: rgb(133, 133, 133);
+  font-weight: 500;
+  font-size: 13px;
+}
+.editable-row .ant-form-item-explain {
+  position: absolute;
+  top: 100%;
+  font-size: 12px;
+}
+.admin {
+  width: 70%;
+  margin: auto;
+  background-color: white;
+  border: 3px solid #4e4343;
+}
+.styleHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.ant-spin-nested-loading {
+  border: 3px solid #4e4343;
+}
+.ant-table-cell {
+  padding: 0;
+}
+.header {
+  border-bottom: 3px solid #201d1d;
+  padding: 0;
+  margin: 0;
+}
+.styleNav {
+  border-bottom: 1px solid #2e75ad;
+  font-size: 17px;
+  color: #2e75ad;
+  font-weight: 500;
+}
+a :hover {
+  color: #40a9ff;
+}
+ */
+body {
+  margin: 0;
+  padding: 0;
+}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.ant-carousel .slick-dots {
+  margin: 0 !important;
+}
+.chekout {
+  font-weight: 600;
+}
+.chekout:hover {
+  color: #40a9ff;
+}
+.slick-dots li button:before {
+  display: none;
+}
+.slick-dots li.slick-active button:before {
+  opacity: 0 !important;
+
+  display: none;
+}
+
+.ant-modal-footer {
+  display: none !important;
+}
+.ant-modal-close {
+  display: none !important;
+}
+.ant-modal-body {
+  padding: 0 !important;
+}
+/* .slick-prev {
+  left: 5px !important;
+}
+.slick-next {
+  right: 8px !important;
+}
+.slick-prev:before {
+  color: #6c6262 !important;
+}
+.slick-next:before {
+  color: #6c6262 !important;
+} */

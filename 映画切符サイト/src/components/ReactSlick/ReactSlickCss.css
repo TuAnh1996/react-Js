@@ -1,0 +1,29 @@
+.slick-prev {
+  left: -50px !important;
+}
+.slick-next {
+  right: -30px !important;
+}
+.slick-prev:before {
+  color: #6c6262 !important;
+  font-size: 30px;
+}
+.slick-next:before {
+  color: #6c6262 !important;
+  font-size: 30px;
+}
+.active_Film {
+  @apply bg-gray-800 text-white;
+}
+.active_Film:hover {
+  transform: scale(1.1);
+}
+.none_active_Film:hover {
+  transform: scale(1.1);
+}
+.none_active_Film {
+  @apply bg-white text-gray-800;
+}
+.card-body1 {
+  padding: none !important;
+}

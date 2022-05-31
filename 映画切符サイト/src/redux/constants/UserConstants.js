@@ -1,0 +1,13 @@
+export const USER_SIGIN_API = "USER_SIGIN_API";
+export const USER_SIGIN_SAGA = "USER_SIGIN_SAGA";
+
+export const GET_LIST_USER_SAGA = "GET_LIST_USER_SAGA";
+export const GET_LIST_USER_API = "GET_LIST_USER_API";
+
+export const DELETE_USER_SAGA = "DELETE_USER_SAGA";
+export const DELETE_USER_API = "DELETE_USER_API";
+
+export const USER_SEARCH = "USER_SEARCH";
+
+export const EDIT_USER_SAGA = "EDIT_USER_SAGA";
+export const EDIT_USER_API = "EDIT_USER_API";
